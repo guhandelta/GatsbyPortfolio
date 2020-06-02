@@ -14,8 +14,6 @@ const Header = () => (
             <Link to="/work">Work</Link>
             <Link to="/contact">Contact</Link>
           </nav>
-
-          
         </div>
       </div>
     </div>
