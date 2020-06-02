@@ -33,6 +33,31 @@ body {
     min-width: 768px;
   }
 }
+.column {
+  float: left;
+  width: 50%;
+  height: 75px;
+}
+.row{
+  margin-bottom: 16em;
+}
+.logo{
+  vertical-align: middle;
+  align-items: center;
+}
+.adroit{
+  top: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.date{
+  font-size: 70%;
+}
 
 //Header
 header {
@@ -80,6 +105,7 @@ header {
   background-color: $white;
   position: relative;
   height: 100vh;
+  top: 9em;
   .row {
     position: relative;
     .main-text {
@@ -132,6 +158,31 @@ header {
           right: 128px;
         }
       }
+    }
+  }
+  .scroll {
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    color: $black;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 48px;
+  }
+  .fixed-misc {
+    position: fixed;
+    top: 50%;
+    right: -48px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    color: $white;
+    mix-blend-mode: difference;
+    z-index: 8;
+    @media (max-width: 1440px) {
+      right: -112px;
     }
   }
   .scroll {

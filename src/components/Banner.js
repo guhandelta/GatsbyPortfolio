@@ -13,7 +13,7 @@ const Banner = () => {
                     }
                 }
             }
-            nebraskaStatePark: file(relativePath: { eq: "Nebraska-State-Park.png" }) {
+            yosemiteCamp: file(relativePath: { eq: "Yosemite-camp.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 300) {
                         ...GatsbyImageSharpFluid
@@ -42,15 +42,11 @@ const Banner = () => {
                         <Img fluid={data.ashCave.childImageSharp.fluid} />
                     </div>
                     <div className="side-image right">
-                        <Img fluid={data.nebraskaStatePark.childImageSharp.fluid} />
+                        <Img fluid={data.yosemiteCamp.childImageSharp.fluid} />
                     </div>
                 </div>
-                <div className="scroll">
-                    <span>
-                        Scroll Down
-                    </span>
-                </div>
             </div>
+            <div className="fixed-misc">Web/UI Developer</div>
         </div>
     )
 }
