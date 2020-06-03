@@ -96,6 +96,7 @@ const Exp = () => {
                             </p>
                         </div>
                         <div class="column .logo">
+                            <br /><br />
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -105,10 +106,11 @@ const Exp = () => {
 
                     <div className="row">
                         <div class="column .bcard">
-
+                            <br /><br /><br /><br /><br />
                             <Img fixed={data.barclaycard.childImageSharp.fixed} />
                         </div>
                         <div class="column">
+                            <br /><br />
                             <h2>Barclay Card Us<span className="date">(Sep 2019 – Nov 2019)</span></h2>
                             <p>• Designed Responsive Single Page Application using React JS, JSON, SASS/SCSS <br />
                             • Worked with business to design and develop web pages that adhered to company, industry and usability standards. <br />
@@ -194,6 +196,7 @@ const Exp = () => {
                             </p>
                         </div>
                         <div class="column .logo">
+                            <br />
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -203,9 +206,11 @@ const Exp = () => {
 
                     <div className="row">
                         <div class="column .bcard">
+                            <br /><br /><br /><br />
                             <Img fixed={data.wvaquavit.childImageSharp.fixed} />
                         </div>
                         <div class="column">
+                            <br /><br />
                             <h2>WV Aquavit<span className="date">(Mar 2016 – May 2016)</span></h2>
                             <p>• Developed a wireless sensor network using Raspberry Pi 3, Arduino and Vernier Water pH sensor to actively report water pH value, of Ohio River, to the project admin via IBM Bluemix and store the values in a MongoDB Database. <br /> </p>
                         </div>
@@ -223,7 +228,8 @@ const Exp = () => {
                             </p>
                         </div>
                         <div class="column .logo .adroit">
-                            &emsp;&emsp;&emsp;&emsp; <br /><br /><br /><br /><br /><br />
+                            <br /><br /><br />
+                            &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             <Img fixed={data.adroit.childImageSharp.fixed} />
@@ -232,10 +238,11 @@ const Exp = () => {
 
                     <div className="row">
                         <div class="column .bcard">
+                            <br /><br />
                             <Img fixed={data.skcet.childImageSharp.fixed} />
                         </div>
                         <div class="column">
-                            <h2>WV Aquavit<span className="date">(Mar 2016 – May 2016)</span></h2>
+                            <h2>Sri Krishna College of Engineering and Technology<span className="date">(Mar 2016 – May 2016)</span></h2>
                             <p>
                                 • Designed a responsive web application to display students academic progress using HTML5/CSS3 and Bootstrap. <br />
                                 • The entire student's academic information was stored and managed using PHP/MySQL. <br />
