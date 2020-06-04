@@ -1,6 +1,6 @@
 import React from "react"
 
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const Exp = () => {
@@ -82,12 +82,10 @@ const Exp = () => {
 
     return (
         <div className="about-blurb">
-            <div className="container">
-                <h2>Work Experience</h2>
+            <div className="container workSec">
                 <div className="inner-blurb">
                     <div class="row">
                         <div class="column">
-                            <h2>Discover Financial Services(Dec 2019 – May 2020)</h2>
                             <h2>Discover Financial Services<span className="date">(Dec 2019 – May 2020)</span></h2>
                             <p>• Developed Server Side Rendered SPA using Next JS, React JS, Material UI, SASS, JavaScript/JSX, JSON and Ajax<br />
                         • Constructed a robust server using Python Flask with endpoints to provide data to the UI pages<br />
@@ -96,17 +94,16 @@ const Exp = () => {
                             </p>
                         </div>
                         <div class="column .logo">
-                            <br /><br />
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             <Img fixed={data.discover.childImageSharp.fixed} />
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column .bcard">
-                            <br /><br /><br /><br /><br />
+                            <br /><br /><br />
                             <Img fixed={data.barclaycard.childImageSharp.fixed} />
                         </div>
                         <div class="column">
@@ -120,7 +117,7 @@ const Exp = () => {
                             </p>
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column">
                             <h2>Express Scripts International<span className="date">(Dec 2018 – Aug 2019)</span></h2>
@@ -138,7 +135,7 @@ const Exp = () => {
                             <Img fixed={data.expressScripts.childImageSharp.fixed} />
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column .bcard">
                             <Img fixed={data.bsCal.childImageSharp.fixed} />
@@ -152,7 +149,7 @@ const Exp = () => {
                             </p>
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column">
                             <h2>Veridic Solutions<span className="date">(Nov 2017 – Mar 2018)</span></h2>
@@ -169,7 +166,7 @@ const Exp = () => {
                             <Img fixed={data.veridic.childImageSharp.fixed} />
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column .bcard">
                             <Img fixed={data.n2s.childImageSharp.fixed} />
@@ -184,7 +181,7 @@ const Exp = () => {
                             </p>
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column">
                             <h2>Mildred Mitchell-Bateman Hospital<span className="date">(Jan 2017 – May 2017)</span></h2>
@@ -203,10 +200,10 @@ const Exp = () => {
                             <Img fixed={data.mildred.childImageSharp.fixed} />
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column .bcard">
-                            <br /><br /><br /><br />
+                            <br /><br /><br />
                             <Img fixed={data.wvaquavit.childImageSharp.fixed} />
                         </div>
                         <div class="column">
@@ -215,7 +212,7 @@ const Exp = () => {
                             <p>• Developed a wireless sensor network using Raspberry Pi 3, Arduino and Vernier Water pH sensor to actively report water pH value, of Ohio River, to the project admin via IBM Bluemix and store the values in a MongoDB Database. <br /> </p>
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column">
                             <h2>Adroit Technologies<span className="date">(Sept 2012 – Mar 2015)</span></h2>
@@ -228,20 +225,20 @@ const Exp = () => {
                             </p>
                         </div>
                         <div class="column .logo .adroit">
-                            <br /><br /><br />
+                            <br /><br /><br /><br />
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             <Img fixed={data.adroit.childImageSharp.fixed} />
                         </div>
                     </div>
-
+                    <hr />
                     <div className="row">
                         <div class="column .bcard">
-                            <br /><br />
                             <Img fixed={data.skcet.childImageSharp.fixed} />
                         </div>
                         <div class="column">
+                            <br /><br />
                             <h2>Sri Krishna College of Engineering and Technology<span className="date">(Mar 2016 – May 2016)</span></h2>
                             <p>
                                 • Designed a responsive web application to display students academic progress using HTML5/CSS3 and Bootstrap. <br />

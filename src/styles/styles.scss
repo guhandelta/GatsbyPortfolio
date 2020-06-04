@@ -98,6 +98,33 @@ header {
   }
 }
 
+.links {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.links:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.links:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 //Banner
 .banner {
   display: flex;
@@ -152,7 +179,7 @@ header {
       }
       &.right {
         right: 128px;
-        left: 890px;
+        left: 810px;
         bottom: 12px;
         @media (max-width: 1440px) {
           right: 128px;
@@ -210,4 +237,29 @@ header {
       right: -112px;
     }
   }
+}
+.workSec{
+  margin-top: -10em;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+.overline::first-letter {
+    text-decoration: overline black;
+}
+.overline::shadow {
+    text-decoration: overline black;
+}
+.contact{
+  margin-top: -15em;;
+}
+.submitBtn:hover{
+  border: 1px solid coral;
+  background-color: coral;
 }

@@ -13,7 +13,7 @@ const Banner = () => {
                     }
                 }
             }
-            yosemiteCamp: file(relativePath: { eq: "Yosemite-camp.png" }) {
+            yosemiteCamp: file(relativePath: { eq: "Yosemite-campfire.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 300) {
                         ...GatsbyImageSharpFluid
