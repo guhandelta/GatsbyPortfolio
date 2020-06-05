@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Piedra&display=swap');
 $font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
@@ -34,19 +35,56 @@ body {
   }
 }
 .column {
-  float: left;
-  width: 50%;
-  height: 75px;
+  display: inline-block;
+  width: 85%;
+  height: 15em;
 }
-.row{
-  margin-bottom: 16em;
+.about-column {
+  float: left;
+  width: 75%;
+  height: 75px;
+  padding: 0;
+}
+.cright{
+  float: right;
+}
+.aboutImg{
+  margin-left: 15%;
+}
+.erow{
+  display: inline-flex;
+  margin-bottom: 3.5em;
+  margin-top: 2em;
 }
 .logo{
   vertical-align: middle;
   align-items: center;
 }
-.adroit{
-  top: 40%;
+.details{
+  top: 15%;
+  margin: -12em 5em 3em;
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 2em 5em;
+}
+table{
+  width: 100%;
+  height: 6em;
+  tr{
+    background-color: coral;
+  }
+  td{
+    padding: 0 0.5em;
+    .tag{
+      padding-right: none;
+    }
+  }
+}
+header{
+  position: sticky;
+}
+h4{
+  font-family: 'Lobster', cursive;
 }
 
 /* Clear floats after the columns */
@@ -111,10 +149,10 @@ header {
 .links:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
-  content: "";
+  // content: "";
   display: block;
   height: 2px;
-  left: 50%;
+  left: 0;
   position: absolute;
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -125,6 +163,86 @@ header {
   left: 0;
 }
 
+.about-image {
+      width: 260px;
+      position: absolute;
+      left: 4em;
+      margin-top: -12em;
+      @media (max-width: 1440px) {
+        width: 208px;
+      }
+      &.left {
+        right: 172px;
+        top: 1em;
+        @media (max-width: 1440px) {
+          left: 128px;
+        }
+      }
+    }
+    .aboutTable{
+      top: 6em;
+      border: 2px solid auto;
+      tr{
+        border: 2px solid auto;
+      }
+      td{
+        border: 2px solid auto;
+      }
+
+    }
+  .about-section{
+    display: inline-block;
+    margin-left: 23%;
+  }
+  .about{
+    display: inline-block;
+    border: 1px solid #00ff00;
+    margin-left: 30%;
+    // margin-top: -75em;
+    padding: -1em 2em;
+  }
+  .job-holder{
+    width: 80%;
+    padding: 1em 2em;
+    margin: 5% 10%;
+    border: 1px solid #000;
+  }
+  hr{
+    width: 85%;
+  }
+.edit{
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 3em;
+
+  .side-image {
+      width: 260px;
+      position: absolute;
+      @media (max-width: 1440px) {
+        width: 208px;
+      }
+      &.left {
+        left: 5em;
+        right: 172px;
+        top: 2.5em;
+        @media (max-width: 1440px) {
+          left: 128px;
+        }
+      }
+      &.right {
+        right: 128px;
+        left: 810px;
+        bottom: 12px;
+        @media (max-width: 1440px) {
+          right: 128px;
+        }
+      }
+    }
+}
+
 //Banner
 .banner {
   display: flex;
@@ -132,7 +250,8 @@ header {
   background-color: $white;
   position: relative;
   height: 100vh;
-  top: 9em;
+  margin-bottom: -3em;;
+  top: 1em;
   .row {
     position: relative;
     .main-text {
@@ -198,9 +317,9 @@ header {
   }
   .fixed-misc {
     position: fixed;
-    top: 50%;
+    top: 30%;
     right: -48px;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 0.875rem;
@@ -241,6 +360,12 @@ header {
 .workSec{
   margin-top: -10em;
 }
+tr{
+  border: 1 px solid auto;
+}
+td{
+  border: 1 px dotted auto;
+}
 
 .underline {
   width: 5rem;
@@ -257,7 +382,7 @@ header {
     text-decoration: overline black;
 }
 .contact{
-  margin-top: -15em;;
+  margin-top: -2em;;
 }
 .submitBtn:hover{
   border: 1px solid coral;

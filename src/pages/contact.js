@@ -8,7 +8,9 @@ export default function Contact() {
         <>
             <Header />
             <Banner />
+            <br />
             <Title title="Contact Me" />
+
             <section className="contact py-5">
                 <div className="row">
                     <div className="col-10 col-sm-8 col-md-6 mx-auto">

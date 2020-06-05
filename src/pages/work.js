@@ -7,6 +7,7 @@ const IndexPage = () => (
     <div>
         <Header />
         <Banner />
+        <br /><br /><br />
         <Title title={"Work Experience"} />
         <Exp />
     </div>

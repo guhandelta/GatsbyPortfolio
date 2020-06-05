@@ -84,7 +84,8 @@ const Exp = () => {
         <div className="about-blurb">
             <div className="container workSec">
                 <div className="inner-blurb">
-                    <div class="row">
+                    <br /><br /><br /><br /><br /><br /><br />
+                    <div class="erow">
                         <div class="column">
                             <h2>Discover Financial Services<span className="date">(Dec 2019 – May 2020)</span></h2>
                             <p>• Developed Server Side Rendered SPA using Next JS, React JS, Material UI, SASS, JavaScript/JSX, JSON and Ajax<br />
@@ -93,7 +94,7 @@ const Exp = () => {
                         • Developed an interactive dashboard that displays updates on user actions in realtime, using Python Flask and Jinja2.<br />
                             </p>
                         </div>
-                        <div class="column .logo">
+                        <div class="column .logo .cright">
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -101,12 +102,12 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column .bcard">
                             <br /><br /><br />
                             <Img fixed={data.barclaycard.childImageSharp.fixed} />
                         </div>
-                        <div class="column">
+                        <div class="column .cright">
                             <br /><br />
                             <h2>Barclay Card Us<span className="date">(Sep 2019 – Nov 2019)</span></h2>
                             <p>• Designed Responsive Single Page Application using React JS, JSON, SASS/SCSS <br />
@@ -118,7 +119,7 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column">
                             <h2>Express Scripts International<span className="date">(Dec 2018 – Aug 2019)</span></h2>
                             <p>• Developed Single Page Applications using HTML5/CSS3, SASS, JavaScript/JSX, React JS, Redux, JSON, Node.js, and Ajax <br />
@@ -128,7 +129,7 @@ const Exp = () => {
 
                             </p>
                         </div>
-                        <div class="column .logo">
+                        <div class="column .logo .cright">
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -136,11 +137,11 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column .bcard">
                             <Img fixed={data.bsCal.childImageSharp.fixed} />
                         </div>
-                        <div class="column">
+                        <div class="column .cright">
                             <h2>Blue Shield of California<span className="date">(May 2018 – Nov 2018)</span></h2>
                             <p>     • Developed responsive UI using Angular 4/Bootstrap by binding HTML DOM to JavaScript objects. <br />
                             • Created Typescript reusable components and services using Component-based architecture provided by Angular 4. <br />
@@ -150,7 +151,7 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column">
                             <h2>Veridic Solutions<span className="date">(Nov 2017 – Mar 2018)</span></h2>
                             <p>• Designed and managed public/private cloud infrastructures using Amazon Web Services (AWS). <br />
@@ -159,7 +160,7 @@ const Exp = () => {
                             • Developed cookbooks using Chef for Deploying services on Hybrid environments, both Windows and Linux. <br />
                             </p>
                         </div>
-                        <div class="column .logo">
+                        <div class="column .logo .cright">
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -167,11 +168,11 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column .bcard">
                             <Img fixed={data.n2s.childImageSharp.fixed} />
                         </div>
-                        <div class="column">
+                        <div class="column .cright">
                             <h2>N2 Services<span className="date">(July 2017 – Nov 2017)</span></h2>
                             <p>     • Implemented Angular app with CRUD features utilizing all concepts of Angular 4 i.e. Data binding, Components, Directives, in-built and user-defined directives, Routing, Observables, Forms, Pipes, Services with Dependency Injection. <br />
                             • Worked on Angular Strap Framework and AngularJS Validations and used jQuery core library functions for the
@@ -182,7 +183,7 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column">
                             <h2>Mildred Mitchell-Bateman Hospital<span className="date">(Jan 2017 – May 2017)</span></h2>
                             <p>• Developed secure views and templates using Django’s Jinja2 templating engine with powerful automatic HTML Escaping, which helps preventing Cross-site Scripting attacks. Bootstrap4 was used to make the pages responsive. <br />
@@ -192,7 +193,7 @@ const Exp = () => {
 
                             </p>
                         </div>
-                        <div class="column .logo">
+                        <div class="column .logo .cright">
                             <br />
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -200,20 +201,20 @@ const Exp = () => {
                             <Img fixed={data.mildred.childImageSharp.fixed} />
                         </div>
                     </div>
-                    <hr />
-                    <div className="row">
+                    <br /><br /><br /><hr />
+                    <div className="erow">
                         <div class="column .bcard">
                             <br /><br /><br />
                             <Img fixed={data.wvaquavit.childImageSharp.fixed} />
                         </div>
-                        <div class="column">
+                        <div class="column .cright">
                             <br /><br />
                             <h2>WV Aquavit<span className="date">(Mar 2016 – May 2016)</span></h2>
                             <p>• Developed a wireless sensor network using Raspberry Pi 3, Arduino and Vernier Water pH sensor to actively report water pH value, of Ohio River, to the project admin via IBM Bluemix and store the values in a MongoDB Database. <br /> </p>
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column">
                             <h2>Adroit Technologies<span className="date">(Sept 2012 – Mar 2015)</span></h2>
                             <p>• Designed web interfaces for websites and web applications using Bootstrap, Angular JS/2 and React JS. <br />
@@ -224,8 +225,8 @@ const Exp = () => {
 
                             </p>
                         </div>
-                        <div class="column .logo .adroit">
-                            <br /><br /><br /><br />
+                        <div class="column .logo .cright">
+                            <br /><br /><br />
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
@@ -233,11 +234,11 @@ const Exp = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="row">
+                    <div className="erow">
                         <div class="column .bcard">
                             <Img fixed={data.skcet.childImageSharp.fixed} />
                         </div>
-                        <div class="column">
+                        <div class="column .cright">
                             <br /><br />
                             <h2>Sri Krishna College of Engineering and Technology<span className="date">(Mar 2016 – May 2016)</span></h2>
                             <p>
