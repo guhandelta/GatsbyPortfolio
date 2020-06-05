@@ -1,7 +1,9 @@
-import Header from './header'
 import Banner from './Banner'
-import Title from './Title'
-import Welcome from './Welcome'
 import Exp from './Exp'
+import Header from './header'
+import Layout from './Layout'
+import Title from './Title'
+import SEO from './SEO'
+import Welcome from './Welcome'
 
-export { Header, Banner, Exp, Title, Welcome }
+export { Banner, Exp, Header, Layout, SEO, Title, Welcome }
