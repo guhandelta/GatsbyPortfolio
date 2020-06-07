@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster&family=Piedra&display=swap');
 $font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
@@ -59,6 +59,7 @@ body {
 .logo{
   vertical-align: middle;
   align-items: center;
+  border-radius: 2em;
 }
 .details{
   top: 15%;
@@ -138,6 +139,8 @@ header {
 
 .links {
   color: #fff;
+  font-family: 'Kalam', cursive;
+  font-size: 2em;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -260,6 +263,7 @@ header {
       text-transform: uppercase;
       letter-spacing: 42px;
       font-weight: 700;
+      font-family: 'Kalam', cursive;
       color: $white;
       position: absolute;
       width: 100%;
@@ -276,9 +280,11 @@ header {
         letter-spacing: 36px;
       }
     }
+
     .main-image {
       width: 386px;
       margin: 0 auto;
+      margin-top: 20em;
       @media (max-width: 1440px) {
         width: 436px;
       }
@@ -292,7 +298,7 @@ header {
       &.left {
         left: 48px;
         right: 172px;
-        top: 12px;
+        top: 21em;
         @media (max-width: 1440px) {
           left: 128px;
         }
@@ -300,6 +306,7 @@ header {
       &.right {
         right: 128px;
         left: 810px;
+        top: 35em;
         bottom: 12px;
         @media (max-width: 1440px) {
           right: 128px;
@@ -360,6 +367,9 @@ header {
 }
 .workSec{
   margin-top: -10em;
+}
+.discover{
+  border-radius: 10px;
 }
 tr{
   border: 1 px solid auto;

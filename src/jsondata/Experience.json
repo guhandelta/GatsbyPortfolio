@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "client": "Discover Financial Services",
+        "daterange": "Dec 2019 - May 2020",
+        "work": [
+            "• Developed Server Side Rendered SPA using Next JS, React JS, Material UI, SASS, JavaScript/JSX, JSON and Ajax<br />",
+            "• Constructed a robust server using Python Flask with endpoints to provide data to the UI pages<br />",
+            "• Worked with team in developing an interactive menu with elegant animations using D3.js<br />",
+            "• Developed an interactive dashboard that displays updates on user actions in realtime, using Python Flask and Jinja2."
+        ]
+    },
+    {
+        "id": 2,
+        "client": "Barclay Card US",
+        "daterange": "Sep 2019 – Nov 2019",
+        "work": [
+            "• Designed Responsive Single Page Application using React JS, JSON, SASS/SCSS <br />",
+            "• Worked with business to design and develop web pages that adhered to company, industry and usability standards. <br />",
+            "• Contributed to design and development of the UI for the Credit Card Offers Portal <br />",
+            "• Contributed in developing internal applications and application server with APIs using Python Flask and MongoDB "
+        ]
+    },
+    {
+        "id": 3,
+        "client": "Express Scripts International",
+        "daterange": "Dec 2018 – Aug 2019",
+        "work": [
+            "• Developed Single Page Applications using HTML5/CSS3, SASS, JavaScript/JSX, React JS, Redux, JSON, Node.js, and Ajax <br />",
+            "• Designed methods and classes to interact and dispatch data using multiple APIs to React components <br />",
+            "• Design the web pages with the Server Side Rendering architecture to make the website faster<br />",
+            "• Composed unit test cases using Jest-Enzyme for performing unit tests on React components"
+        ]
+    },
+    {
+        "id": 4,
+        "client": "Blue Shield of California",
+        "daterange": "May 2018 – Nov 2018",
+        "work": [
+            "• Developed responsive UI using Angular 4/Bootstrap by binding HTML DOM to JavaScript objects. <br />",
+            "• Created Typescript reusable components and services using Component-based architecture provided by Angular 4. <br />",
+            "• Utilized in-browser testing with Karma to perform unit testing of the Angular 4 applications on browsers. <br />",
+            "• Constructed database Model, APIs and Views utilizing python, in order to build an interactive web based solution. "
+        ]
+    },
+    {
+        "id": 5,
+        "client": "Veridic Solutions",
+        "daterange": "Nov 2017 – Mar 2018",
+        "work": [
+            "• Designed and managed public/private cloud infrastructures using Amazon Web Services (AWS). <br />",
+            "• Worked on automating AWS infrastructure provisioning using AWS SDK Boto3 and Python. <br />",
+            "• Worked On-Premise migration into AWS, over a dedicated connection using AWS Direct Connect. <br />",
+            "• Developed cookbooks using Chef for Deploying services on Hybrid environments, both Windows and Linux. "
+        ]
+    },
+    {
+        "id": 6,
+        "client": "N2 Services",
+        "daterange": "July 2017 – Nov 2017",
+        "work": [
+            "• Implemented Angular app with CRUD features utilizing all concepts of Angular 4 i.e. Data binding, Components, Directives, in-built and user-defined directives, Routing, Observables, Forms, Pipes, Services with Dependency Injection. <br />",
+            "• Worked on Angular Strap Framework and AngularJS Validations and used jQuery core library functions for the logical implementation part at client side for all the applications <br />",
+            "• Collaborated with designers to create responsive Single Page Applications (SPA) on with Angular 4 Routing. "
+        ]
+    },
+    {
+        "id": 7,
+        "client": "Mildred Mitchell-Bateman Hospital",
+        "daterange": "Jan 2017 – May 2017",
+        "work": [
+            "• Developed secure views and templates using Django’s Jinja2 templating engine with powerful automatic HTML Escaping, which helps preventing Cross-site Scripting attacks. Bootstrap4 was used to make the pages responsive. <br />",
+            "• Created Django Forms for the database models, to receive user data and process submitted forms. <br />",
+            "• Worked on creating RestAPI endpoints for every pages in the app, along with alerting about any new maintenance requests and the pre-registered maintenance dates, using push notifications. <br />",
+            "• Django ORM was used here to manage all the equipment and user information, over SQL lite 3 DB. "
+        ]
+    },
+    {
+        "id": 8,
+        "client": "WV Aquavit",
+        "daterange": "Mar 2016 - May 2016",
+        "work": [
+            "• Developed a wireless sensor network using Raspberry Pi 3, Arduino and Vernier Water pH sensor to actively report water pH value, of Ohio River, to the project admin via IBM Bluemix and store the values in a MongoDB Database."
+        ]
+    },
+    {
+        "id": 9,
+        "client": "Adroit Technologies",
+        "daterange": "Dec 2019 - May 2020",
+        "work": [
+            "• Designed web interfaces for websites and web applications using Bootstrap, Angular JS/2 and React JS. <br />",
+            "• Developed web applications with frameworks like Node.js, PHP Laravel, Python Django and Ruby on Rails. <br />",
+            "• Composed Python scripts to parse documents like XML, Excel, CSV and load the data into database. <br />",
+            "• Developed a Rails application for the cross functional sharing data between Backend and Frontend. <br />",
+            "• Experienced in developing single page web applications using web frameworks like React and Angular. "
+        ]
+    },
+    {
+        "id": 10,
+        "client": "Discover Financial Services",
+        "daterange": "Nov 2012 – May 2013",
+        "work": [
+            "• Designed a responsive web application to display students academic progress using HTML5/CSS3 and Bootstrap<br />",
+            "• The entire student's academic information was stored and managed using PHP/MySQL"
+        ]
+    }
+]

@@ -94,7 +94,7 @@ const Exp = () => {
                         • Developed an interactive dashboard that displays updates on user actions in realtime, using Python Flask and Jinja2.<br />
                             </p>
                         </div>
-                        <div class="column .logo .cright">
+                        <div class="column .logo .cright .discover">
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
                             &emsp;&emsp;&emsp;&emsp;
