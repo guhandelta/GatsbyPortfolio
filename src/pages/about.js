@@ -28,40 +28,28 @@ const AboutPage = () => {
             <Header /><br /><br /><br /><br /><br />
             <Title title={"About me"} />
 
-            <StyledContainerTable>
-                <StyledImageHolder>
-                    <WrappedImg fixed={data.eagleCreekPark.childImageSharp.fixed} />
-                </StyledImageHolder>
-                <tr>
-                    <div class="containing-table">
-                        <div class="centre-align">
-                            <div class="content">
-                                <a className="github" href="https://github.com/guhandelta">
-                                    <FaGithub />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="containing-table">
-                        <div class="centre-align">
-                            <div class="content">
-                                <a className="linkedin" href="https://linkedin.com/guhaprasaanthnandagopal">
-                                    <FaLinkedin />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="containing-table">
-                        <div class="centre-align">
-                            <div class="content">
-                                <a className="facebook" href="https://facebook.com/guhandelta">
-                                    <FaFacebookF />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </tr>
-            </StyledContainerTable>
+
+            <StyledImageHolder>
+                <WrappedImg fixed={data.eagleCreekPark.childImageSharp.fixed} />
+            </StyledImageHolder>
+
+            <StyledLinksTable>
+                <th>
+                    <a style={{ color: 'black' }} className="github" href="https://github.com/guhandelta">
+                        <FaGithub size={32} />
+                    </a>
+                </th>
+                <th>
+                    <a href="https://linkedin.com/guhaprasaanthnandagopal">
+                        <FaLinkedin size={32} />
+                    </a>
+                </th>
+                <th>
+                    <a href="https://facebook.com/deltaguhan">
+                        <FaFacebookF size={32} />
+                    </a>
+                </th>
+            </StyledLinksTable>
 
             <StyledRow>
                 <StyledText>
@@ -91,7 +79,7 @@ const Wrapper = styled.div`
 const StyledText = styled.p`
     font-family: 'Lobster', cursive;
     font-size: 2em;
-    top: -3em;
+    top: -10em;
     :first-letter{
         color: coral;
     }
@@ -129,17 +117,16 @@ const StyledRow = styled.div`
     width: 65%;
     margin-left: 12em;
     left: 21.2em;
-    top: -20em;
+    top: -34.5em;
     margin-bottom: -30em;
 `
-const StyledRows = styled.div`
-    display: inline-block;
-`
-const StyledContainingTable = styled.div`
+const StyledLinksTable = styled.table`
     display: table;
-    width: 100 %;
-    height: 400px; /* for demo only */
-    border: 1px dotted blue;
+    width: 20em;
+    text-align:center;
+    margin-left: 10em;
+    margin-top: 16em;
+    z-index: 7;
 `
 const StyledCentreAlign = styled.div`
     padding: 10px;
@@ -148,20 +135,14 @@ const StyledCentreAlign = styled.div`
     text-align: center;
     vertical-align: middle;
 `
-const StyledContent = styled.div`
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    display: inline-block;
-    vertical-align: top; /* Removes the extra white space below the baseline */
-`
 
 const StyledContainerTable = styled.table`
     margin-left: 5em;
     width: 10em;
-    border: 1px solid #000;
 `
-const StyledImageHolder = styled.tr`
+const StyledImageHolder = styled.div`
     height: 10em;
-    width: 7em;
+    width: 20em;
+    margin-left: 10em;
+    z-index: 3;
 `

@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "projectName": "Gatsby Coffeeshop",
+        "domain": "UI Development",
+        "description": "Designed a responsive web application, with a HeadlessCMS approach, using GatsbyJS, ReactJS, ContentfulCMS, GraphQL and Snipcart as a payment gateway, for an online CoffeeSHop, to sell beverages online",
+        "link": "https://ngp-gatsby-coffeeshop.netlify.com/",
+        "repo": "https://github.com/guhandelta/GatsbyCoffeeShop",
+        "techstack": [
+            "GatsbyJS",
+            "ReactJS",
+            "JavaScript",
+            "Snipcart",
+            "ContentfulCMS",
+            "GraphQL",
+            "Gatsby-Image"
+        ]
+    },
+    {
+        "id": 2,
+        "projectName": "React Covid19 Tracker",
+        "domain": "UI Development",
+        "description": "Designed a responsive React Application with a Responsive UI to Track and Display Covid19 Cases, Globally and Country Specific in Numeric and Graphical format, with React Material UI components and Chart.js Charts",
+        "link": "https://ngp-react-covid19-info.netlify.app/",
+        "repo": "https://github.com/guhandelta/ReactCovid19Tracker",
+        "techstack": [
+            "ReactJS",
+            "JavaScript",
+            "ChartJS",
+            "MaterialUI"
+        ]
+    },
+    {
+        "id": 3,
+        "projectName": "React CryptoCurrency Dashboard",
+        "domain": "UI Development",
+        "description": "Designed a responsive web application using React JS, to retrieve and display Crypto Currency/Coin prices using the CryptoComapre API, along with the price history statistics, in Days/Weeks/Months and change in Days/Weeks/Months",
+        "link": "https://ngp-react-cryptocurerncy-dashboard.netlify.app/",
+        "repo": "https://github.com/guhandelta/ReactCryptoCurrencyDashboard",
+        "techstack": [
+            "ReactJS",
+            "JavaScript",
+            "React-Highcharts",
+            "Cryptocompare API"
+        ]
+    },
+    {
+        "id": 4,
+        "projectName": "Gatsby Restaurant",
+        "domain": "UI Development",
+        "description": "Designed an IOT circuit, with sensors attached to individual Arduino circuits to read and report Soil pH(fertility), moisture & temperature values, to a Raspberry Pi 3, acting as a HUB. The Raspberry Pi will then upload all the data into the cloud",
+        "link": "https://ngp-gatsby-restaurant.netlify.com/",
+        "repo": "https://github.com/guhandelta/GatsbyRestaurant",
+        "techstack": [
+            "Gatsby",
+            "React JS",
+            "Contrntful CMS",
+            "HeadlessCMS",
+            "GraphQL",
+            "Gatsby-Image"
+        ]
+    },
+    {
+        "id": 5,
+        "projectName": "Blockchain using Python with RSA Encryption",
+        "domain": "Blockchain",
+        "description": "Designed an IOT circuit, with sensors attached to individual Arduino circuits to read and report Soil pH(fertility), moisture & temperature values, to a Raspberry Pi 3, acting as a HUB. The Raspberry Pi will then upload all the data into the cloud",
+        "link": "https://github.com/guhandelta/BlockChain-Python-with-RSA-encryption",
+        "repo": "https://github.com/guhandelta/BlockChain-Python-with-RSA-encryption",
+        "techstack": [
+            "Python Flask",
+            "Digital Signature",
+            "RSA Encryption"
+        ]
+    },
+    {
+        "id": 6,
+        "projectName": "Gatsby MDX Blog",
+        "domain": "UI Development",
+        "description": "Designed a simple single page application for a blog using GatsbyJS, where the individual pages for the blog were generated using Markdown syntax, composed on a .mdx file",
+        "link": "https://ngp-gatsby-blog.netlify.app/",
+        "repo": "https://github.com/guhandelta/GatsbyGraphQLBlog",
+        "techstack": [
+            "GatsbyJS",
+            "MDX",
+            "CSS",
+            "gatsby-plugin-mdx"
+        ]
+    }
+]
