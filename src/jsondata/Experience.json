@@ -2,7 +2,7 @@
     {
         "id": 1,
         "client": "Discover Financial Services",
-        "daterange": "Dec 2019 - May 2020",
+        "daterange": "Dec 2019 - July 2020",
         "work": [
             "• Developed Server Side Rendered SPA using Next JS, React JS, Material UI, SASS, JavaScript/JSX, JSON and Ajax<br />",
             "• Constructed a robust server using Python Flask with endpoints to provide data to the UI pages<br />",
@@ -77,6 +77,17 @@
     },
     {
         "id": 8,
+        "client": "Stadium Sports",
+        "daterange": "July 2016 – Dec 2016",
+        "work": [
+            "• Created Node.JS middleware application server to encapsulate modern JS widget framework.<br />",
+            "• Designed dynamic client-side JavaScript codes to build web forms and simulate process for a web application, page navigation using React JS<br />",
+            "•	Worked on JavaScript to validate input, manipulated HTML elements using JavaScript developed external JavaScript codes that can be used in several different web pages.<br />",
+            "•	Developed RESTful services with NodeJS Loopback Framework.",
+        ]
+    },
+    {
+        "id": 9,
         "client": "WV Aquavit",
         "daterange": "Mar 2016 - May 2016",
         "work": [
@@ -84,7 +95,18 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
+        "client": "Marshall Recreation Center",
+        "daterange": "July 2016 – Dec 2016",
+        "work": [
+            "•	Design and maintain databases using Python and developed Python-based API (RESTful Web Service) using Flask, SQL Alchemy and PostgreSQL<br />",
+            "•	Developed responsive component based UI for the application using React JS, Bootstrap.<br />",
+            "•	Developed the jQuery callback functions to implement asynchronous communication using AJAX.<br />",
+            "•	Designed and developed a horizontally scalable APIs using Python Flask.<br />"
+        ]
+    },
+    {
+        "id": 11,
         "client": "Adroit Technologies",
         "daterange": "Dec 2019 - May 2020",
         "work": [
@@ -97,7 +119,7 @@
     },
     {
         "id": 10,
-        "client": "Discover Financial Services",
+        "client": "Sri Krishna College of Engineering and technology",
         "daterange": "Nov 2012 – May 2013",
         "work": [
             "• Designed a responsive web application to display students academic progress using HTML5/CSS3 and Bootstrap<br />",
